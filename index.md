@@ -60,10 +60,12 @@ No entity pages yet.
 ## People
 
 - [[wiki/people/andrej-karpathy]] - source author of the referenced LLM Wiki idea.
+- [[wiki/people/262588213843476]] - Web Clipper author alias resolving to Karpathy.
 
 ## Sources
 
-- [[wiki/sources/karpathy-llm-wiki-gist]] - source brief for the LLM Wiki gist.
+- [[raw/sources/2026-06-23-karpathy-llm-wiki]] - accepted raw clip of the LLM Wiki gist.
+- [[wiki/sources/karpathy-llm-wiki-gist]] - ingested source brief for the LLM Wiki gist.
 
 ## Syntheses
 
@@ -77,4 +79,6 @@ No durable question pages yet.
 
 - Last architecture setup: 2026-06-23.
 - Next useful lint pass: after the first 5-10 ingested sources.
+
+
 
