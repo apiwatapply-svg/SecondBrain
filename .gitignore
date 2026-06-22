@@ -1,0 +1,11 @@
+﻿# Obsidian local application state.
+.obsidian/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# Obsidian trash.
+.trash/
