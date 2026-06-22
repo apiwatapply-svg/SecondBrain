@@ -26,7 +26,7 @@ before answering questions or editing wiki pages.
 
 - [[raw/README]] - source-of-truth layer.
 - [[wiki/README]] - LLM-maintained knowledge layer.
-- [[templates/README]] - reusable page templates.
+- [[templates/README]] - reusable page templates, including YouTube video source metadata.
 - [[operations/README]] - repeatable wiki workflows.
 
 ## Wiki Maps
@@ -77,3 +77,4 @@ No durable question pages yet.
 
 - Last architecture setup: 2026-06-23.
 - Next useful lint pass: after the first 5-10 ingested sources.
+

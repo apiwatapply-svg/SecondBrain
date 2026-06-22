@@ -12,6 +12,7 @@ tags:
 Use these templates when creating new wiki pages.
 
 - [[templates/source-brief]]
+- [[templates/youtube-video-source]]
 - [[templates/topic-page]]
 - [[templates/concept-page]]
 - [[templates/entity-page]]
@@ -21,4 +22,5 @@ Use these templates when creating new wiki pages.
 - [[templates/synthesis-page]]
 - [[templates/query-answer]]
 - [[templates/lint-report]]
+
 

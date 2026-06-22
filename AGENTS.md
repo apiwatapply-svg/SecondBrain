@@ -91,6 +91,20 @@ Allowed `status` values:
   and consider filing it under `wiki/questions/` or `wiki/syntheses/`.
 - If evidence conflicts, preserve the contradiction. Do not smooth it away.
 
+## YouTube Source Rules
+
+When ingesting a YouTube video saved by Obsidian Web Clipper or supplied as a
+YouTube URL:
+
+- Pull the channel name from YouTube itself during processing, not only from the
+  clipped filename or page title.
+- Add `channel_name` to frontmatter on the accepted source note and the source
+  brief. If available, also add `channel_url` and `video_id`.
+- Use `source_type: youtube-video` for these source briefs.
+- If network access or page metadata prevents verification, set
+  `channel_name: needs-review`, preserve the YouTube URL, and add an open
+  question in the source brief and `log.md`.
+
 ## Ingest Workflow
 
 Follow [[operations/ingest-source]].
@@ -141,4 +155,5 @@ Periodic checks:
 - Prefer short, linked pages over massive unstructured notes.
 - Do not modify `.obsidian/` unless the user explicitly asks for Obsidian
   configuration changes.
+
 

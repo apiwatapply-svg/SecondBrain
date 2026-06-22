@@ -20,3 +20,9 @@ Append-only record of wiki activity. Keep headings parseable:
 - Added raw source, wiki, template, and operation layers.
 - Expanded `AGENTS.md` into the operating schema for future agent sessions.
 - Seeded the index with starter pages for the architecture itself.
+## [2026-06-23] schema | YouTube channel metadata requirement
+
+- Added a YouTube Web Clipper ingest rule requiring `channel_name` in
+  frontmatter for accepted YouTube source notes and source briefs.
+- Added [[templates/youtube-video-source]] for YouTube video source briefs.
+
