@@ -34,6 +34,9 @@ Append-only record of wiki activity. Keep headings parseable:
   claims from the full clipped source.
 - Confirmed this source is a GitHub Gist, not a YouTube video, so YouTube
   `channel_name` metadata does not apply.
+## [2026-06-25] schema | Workspace root and knowledge vault split
 
+- Moved the Obsidian/LLM Wiki vault into `knowledge/`.
+- Created root workspace routing rules in `AGENTS.md`.
 
 

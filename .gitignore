@@ -9,3 +9,23 @@ desktop.ini
 
 # Obsidian trash.
 .trash/
+# JavaScript / web app dependencies and build output.
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Local environment and database files.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and caches.
+*.log
+.cache/
+.turbo/
+

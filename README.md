@@ -1,19 +1,25 @@
-﻿# SecondBrain
+﻿# SecondBrain Workspace
 
-This vault is a local-first second brain built around the LLM Wiki pattern:
+This repository is the home for the SecondBrain system.
 
-1. Curate raw sources.
-2. Let the LLM compile them into durable, linked wiki pages.
-3. Use Obsidian as the human browsing and review environment.
-4. Keep the system honest with an explicit schema, index, log, and lint workflow.
+## Structure
 
-Start here:
+- `knowledge/` - Obsidian vault and LLM Wiki knowledge base.
+- `projects/` - future application code projects that use the knowledge vault.
 
-- [[index]] - content map and active entry points.
-- [[log]] - chronological record of ingests, queries, and maintenance.
-- [[operations/ingest-source]] - how to process a new source.
-- [[operations/query-wiki]] - how to answer questions from the wiki.
-- [[operations/lint-wiki]] - how to health-check the graph.
+Open Obsidian at:
 
-The source idea is Karpathy's LLM Wiki pattern:
-https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+`D:\ProjectAP\SecondBrain\knowledge`
+
+Open Codex or other development agents at:
+
+`D:\ProjectAP\SecondBrain`
+
+When a web or app project is created later, place it under `projects/<project-name>/`
+and point it to the vault with:
+
+`SECOND_BRAIN_VAULT_PATH=D:/ProjectAP/SecondBrain/knowledge`
+## Examples
+
+- `examples/second-brain-web-AGENTS.example.md` - example project-level agent rules for a future web app.
+
