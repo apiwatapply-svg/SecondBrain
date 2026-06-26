@@ -2,7 +2,7 @@
 type: index
 status: active
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-27
 tags:
   - wiki/index
 ---
@@ -40,22 +40,29 @@ No area pages yet.
 
 ## Projects
 
-No project pages yet.
+- [[wiki/projects/react-pos]] - registered React POS application project.
 
 ## Topics
 
+- [[wiki/topics/react]] - React UI library knowledge for frontend application work.
 - [[wiki/topics/second-brain]] - personal knowledge system overview.
 - [[wiki/topics/llm-wiki]] - LLM-maintained wiki pattern.
 
 ## Concepts
 
 - [[wiki/concepts/compiled-knowledge]] - knowledge that compounds through maintained structure.
+- [[wiki/concepts/react-compiler]] - React automatic memoization and optimization system.
+- [[wiki/concepts/react-components]] - composable UI units in React applications.
+- [[wiki/concepts/react-effects]] - synchronization escape hatch for external systems.
+- [[wiki/concepts/react-hooks]] - modern React function-component APIs.
+- [[wiki/concepts/react-server-components]] - server-side component execution model.
+- [[wiki/concepts/react-state]] - render-scoped component memory and update model.
 - [[wiki/concepts/source-of-truth]] - immutable evidence layer.
 - [[wiki/concepts/wiki-as-codebase]] - treating Obsidian pages as maintained artifacts.
 
 ## Entities
 
-No entity pages yet.
+- [[wiki/entities/react]] - React UI library entity.
 
 ## People
 
@@ -65,7 +72,9 @@ No entity pages yet.
 ## Sources
 
 - [[raw/sources/2026-06-23-karpathy-llm-wiki]] - accepted raw clip of the LLM Wiki gist.
+- [[raw/sources/2026-06-27-react-19-docs]] - accepted raw collection of 176 official React documentation pages.
 - [[wiki/sources/karpathy-llm-wiki-gist]] - ingested source brief for the LLM Wiki gist.
+- [[wiki/sources/react-19-official-docs]] - ingested source brief for the official React documentation collection.
 
 ## Syntheses
 
@@ -78,7 +87,7 @@ No durable question pages yet.
 ## Maintenance
 
 - Last architecture setup: 2026-06-23.
-- Next useful lint pass: after the first 5-10 ingested sources.
+- Next useful lint pass: after splitting large React documentation sections or after 5-10 additional ingested sources.
 
 
 
