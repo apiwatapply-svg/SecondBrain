@@ -107,7 +107,19 @@ YouTube URL:
 
 ## Ingest Workflow
 
-Follow [[operations/ingest-source]].
+When the user says `ingest`, `injest`, asks to process raw files, or adds sources
+to the vault, read these files before editing ingest outputs:
+
+1. [[AGENTS]]
+2. [[index]]
+3. [[log]]
+4. [[operations/ingest-source]]
+5. The relevant source template, usually [[templates/source-brief]] or
+   [[templates/youtube-video-source]]
+6. Relevant existing pages under `wiki/`
+7. The raw source itself
+
+Then follow [[operations/ingest-source]] exactly.
 
 Minimum ingest outputs:
 
@@ -155,5 +167,6 @@ Periodic checks:
 - Prefer short, linked pages over massive unstructured notes.
 - Do not modify `.obsidian/` unless the user explicitly asks for Obsidian
   configuration changes.
+
 
 
