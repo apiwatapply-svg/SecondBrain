@@ -33,9 +33,18 @@ editing code.
 
 ## Project Registration
 
-No code projects are registered yet.
+Registered code projects:
 
-When a project is created, add its folder under `projects/` and document:
+### React POS
+
+- Code path: `projects/react-pos`
+- Frontend path: `projects/react-pos/front-end`
+- Backend path: `projects/react-pos/back-end`
+- Knowledge path: `knowledge`
+- Stack: React frontend, Node.js backend, MSSQL database, Prisma 6 ORM
+- Agent rules: `projects/react-pos/AGENTS.md`
+
+When another project is created, add its folder under `projects/` and document:
 
 - Project name
 - Code path
@@ -55,4 +64,5 @@ When a project is created, add its folder under `projects/` and document:
 
 - Default branch: `main`
 - Remote: `https://github.com/apiwatapply-svg/SecondBrain.git`
+
 
